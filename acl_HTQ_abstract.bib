@@ -1,0 +1,198 @@
+@inproceedings{zhuo-etal-2023-rethinking,
+    title = "Rethinking Round-Trip Translation for Machine Translation Evaluation",
+    author = "Zhuo, Terry Yue  and
+      Xu, Qiongkai  and
+      He, Xuanli  and
+      Cohn, Trevor",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.22",
+    doi = "10.18653/v1/2023.findings-acl.22",
+    pages = "319--337",
+    abstract = "Automatic evaluation methods for translation often require model training, and thus the availability of parallel corpora limits their applicability to low-resource settings. Round-trip translation is a potential workaround, which can reframe bilingual evaluation into a much simpler monolingual task. Early results from the era of statistical machine translation (SMT) raised fundamental concerns about the utility of this approach, based on poor correlation with human translation quality judgments. In this paper, we revisit this technique with modern neural translation (NMT) and show that round-trip translation does allow for accurate automatic evaluation without the need for reference translations. These opposite findings can be explained through the copy mechanism in SMT that is absent in NMT. We demonstrate that round-trip translation benefits multiple machine translation evaluation tasks: i) predicting forward translation scores; ii) improving the performance of a quality estimation model; and iii) identifying adversarial competitors in shared tasks via cross-system verification.",
+}
+@inproceedings{gladkoff-han-2022-hope,
+    title = "{HOPE}: A Task-Oriented and Human-Centric Evaluation Framework Using Professional Post-Editing Towards More Effective {MT} Evaluation",
+    author = "Gladkoff, Serge  and
+      Han, Lifeng",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.2",
+    pages = "13--21",
+    abstract = "Traditional automatic evaluation metrics for machine translation have been widely criticized by linguists due to their low accuracy, lack of transparency, focus on language mechanics rather than semantics, and low agreement with human quality evaluation. Human evaluations in the form of MQM-like scorecards have always been carried out in real industry setting by both clients and translation service providers (TSPs). However, traditional human translation quality evaluations are costly to perform and go into great linguistic detail, raise issues as to inter-rater reliability (IRR) and are not designed to measure quality of worse than premium quality translations. In this work, we introduce \textbf{HOPE}, a task-oriented and \textit{ \textbf{h} }uman-centric evaluation framework for machine translation output based \textit{ \textbf{o} }n professional \textit{ \textbf{p} }ost-\textit{ \textbf{e} }diting annotations. It contains only a limited number of commonly occurring error types, and uses a scoring model with geometric progression of error penalty points (EPPs) reflecting error severity level to each translation unit. The initial experimental work carried out on English-Russian language pair MT outputs on marketing content type of text from highly technical domain reveals that our evaluation framework is quite effective in reflecting the MT output quality regarding both overall system-level performance and segment-level transparency, and it increases the IRR for error type interpretation. The approach has several key advantages, such as ability to measure and compare less than perfect MT output from different systems, ability to indicate human perception of quality, immediate estimation of the labor effort required to bring MT output to premium quality, low-cost and faster application, as well as higher IRR. Our experimental data is available at \url{https://github.com/lHan87/HOPE}.",
+}
+@inproceedings{lo-2020-extended,
+    title = "Extended Study on Using Pretrained Language Models and {Y}i{S}i-1 for Machine Translation Evaluation",
+    author = "Lo, Chi-kiu",
+    editor = {Barrault, Lo{\"\i}c  and
+      Bojar, Ond{\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Graham, Yvette  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Martins, Andr{\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo},
+    booktitle = "Proceedings of the Fifth Conference on Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.wmt-1.99",
+    pages = "895--902",
+    abstract = "We present an extended study on using pretrained language models and YiSi-1 for machine translation evaluation. Although the recently proposed contextual embedding based metrics, YiSi-1, significantly outperform BLEU and other metrics in correlating with human judgment on translation quality, we have yet to understand the full strength of using pretrained language models for machine translation evaluation. In this paper, we study YiSi-1{'}s correlation with human translation quality judgment by varying three major attributes (which architecture; which inter- mediate layer; whether it is monolingual or multilingual) of the pretrained language mod- els. Results of the study show further improvements over YiSi-1 on the WMT 2019 Metrics shared task. We also describe the pretrained language model we trained for evaluating Inuktitut machine translation output.",
+}
+@inproceedings{yuan-sharoff-2020-sentence,
+    title = "Sentence Level Human Translation Quality Estimation with Attention-based Neural Networks",
+    author = "Yuan, Yu  and
+      Sharoff, Serge",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.229",
+    pages = "1858--1865",
+    abstract = "This paper explores the use of Deep Learning methods for automatic estimation of quality of human translations. Automatic estimation can provide useful feedback for translation teaching, examination and quality control. Conventional methods for solving this task rely on manually engineered features and external knowledge. This paper presents an end-to-end neural model without feature engineering, incorporating a cross attention mechanism to detect which parts in sentence pairs are most relevant for assessing quality. Another contribution concerns oprediction of fine-grained scores for measuring different aspects of translation quality, such as terminological accuracy or idiomatic writing. Empirical results on a large human annotated dataset show that the neural model outperforms feature-based methods significantly. The dataset and the tools are available.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+}
+@inproceedings{popovic-2020-differences,
+    title = "On the differences between human translations",
+    author = "Popovic, Maja",
+    editor = "Martins, Andr{\'e}  and
+      Moniz, Helena  and
+      Fumega, Sara  and
+      Martins, Bruno  and
+      Batista, Fernando  and
+      Coheur, Luisa  and
+      Parra, Carla  and
+      Trancoso, Isabel  and
+      Turchi, Marco  and
+      Bisazza, Arianna  and
+      Moorkens, Joss  and
+      Guerberof, Ana  and
+      Nurminen, Mary  and
+      Marg, Lena  and
+      Forcada, Mikel L.",
+    booktitle = "Proceedings of the 22nd Annual Conference of the European Association for Machine Translation",
+    month = nov,
+    year = "2020",
+    address = "Lisboa, Portugal",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2020.eamt-1.39",
+    pages = "365--374",
+    abstract = "Many studies have confirmed that translated texts exhibit different features than texts originally written in the given language. This work explores texts translated by different translators taking into account expertise and native language. A set of computational analyses was conducted on three language pairs, English-Croatian, German-French and English-Finnish, and the results show that each of the factors has certain influence on the features of the translated texts, especially on sentence length and lexical richness. The results also indicate that for translations used for machine translation evaluation, it is important to specify these factors, especially if comparing machine translation quality with human translation quality is involved.",
+}
+@inproceedings{kunilovskaya-lapshinova-koltunski-2019-translationese,
+    title = "Translationese Features as Indicators of Quality in {E}nglish-{R}ussian Human Translation",
+    author = "Kunilovskaya, Maria  and
+      Lapshinova-Koltunski, Ekaterina",
+    booktitle = "Proceedings of the Human-Informed Translation and Interpreting Technology Workshop (HiT-IT 2019)",
+    month = sep,
+    year = "2019",
+    address = "Varna, Bulgaria",
+    publisher = "Incoma Ltd., Shoumen, Bulgaria",
+    url = "https://aclanthology.org/W19-8706",
+    doi = "10.26615/issn.2683-0078.2019_006",
+    pages = "47--56",
+    abstract = "We use a range of morpho-syntactic features inspired by research in register studies (e.g. Biber, 1995; Neumann, 2013) and translation studies (e.g. Ilisei et al., 2010; Zanettin, 2013; Kunilovskaya and Kutuzov, 2018) to reveal the association between translationese and human translation quality. Translationese is understood as any statistical deviations of translations from non-translations (Baker, 1993) and is assumed to affect the fluency of translations, rendering them foreign-sounding and clumsy of wording and structure. This connection is often posited or implied in the studies of translationese or translational varieties (De Sutter et al., 2017), but is rarely directly tested. Our 45 features include frequencies of selected morphological forms and categories, some types of syntactic structures and relations, as well as several overall text measures extracted from Universal Dependencies annotation. The research corpora include English-to-Russian professional and student translations of informational or argumentative newspaper texts and a comparable corpus of non-translated Russian. Our results indicate lack of direct association between translationese and quality in our data: while our features distinguish translations and non-translations with the near perfect accuracy, the performance of the same algorithm on the quality classes barely exceeds the chance level.",
+}
+@inproceedings{yuan-etal-2016-mobil,
+    title = "{M}o{B}i{L}: A Hybrid Feature Set for Automatic Human Translation Quality Assessment",
+    author = "Yuan, Yu  and
+      Sharoff, Serge  and
+      Babych, Bogdan",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Grobelnik, Marko  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, Helene  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Tenth International Conference on Language Resources and Evaluation ({LREC}'16)",
+    month = may,
+    year = "2016",
+    address = "Portoro{\v{z}}, Slovenia",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L16-1581",
+    pages = "3663--3670",
+    abstract = "In this paper we introduce MoBiL, a hybrid Monolingual, Bilingual and Language modelling feature set and feature selection and evaluation framework. The set includes translation quality indicators that can be utilized to automatically predict the quality of human translations in terms of content adequacy and language fluency. We compare MoBiL with the QuEst baseline set by using them in classifiers trained with support vector machine and relevance vector machine learning algorithms on the same data set. We also report an experiment on feature selection to opt for fewer but more informative features from MoBiL. Our experiments show that classifiers trained on our feature set perform consistently better in predicting both adequacy and fluency than the classifiers trained on the baseline feature set. MoBiL also performs well when used with both support vector machine and relevance vector machine algorithms.",
+}
+@inproceedings{specia-shah-2014-predicting,
+    title = "Predicting human translation quality",
+    author = "Specia, Lucia  and
+      Shah, Kashif",
+    editor = "Al-Onaizan, Yaser  and
+      Simard, Michel",
+    booktitle = "Proceedings of the 11th Conference of the Association for Machine Translation in the Americas: MT Researchers Track",
+    month = oct # " 22-26",
+    year = "2014",
+    address = "Vancouver, Canada",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2014.amta-researchers.22",
+    pages = "288--300",
+    abstract = "We present a first attempt at predicting the quality of translations produced by human, professional translators. We examine datasets annotated for quality at sentence- and word-level for four language pairs and provide experiments with prediction models for these datasets. We compare the performance of such models against that of models built from machine translations, highlighting a number of challenges in estimating quality and detecting errors in human translations.",
+}
+@inproceedings{egan-2012-machine,
+    title = "Machine Translation Revisited: An Operational Reality Check",
+    author = "Egan, Kathleen",
+    booktitle = "Proceedings of the 10th Conference of the Association for Machine Translation in the Americas: Government MT User Program",
+    month = oct # " 28-" # nov # " 1",
+    year = "2012",
+    address = "San Diego, California, USA",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2012.amta-government.5",
+    abstract = "The government and the research community have strived for the past few decades to develop machine translation capabilities. Historically, DARPA took the lead in the grand challenge aiming at surpassing human translation quality. While we have made strides from rule based, to statistical and hybrid machine translation engines, we cannot rely solely on machine translation to overcome the language barrier and accomplish the mission. Machine Translation is often misunderstood or misplaced in the operational settings as expectations are unrealistic and optimization not achieved. With the increase in volume, variety and velocity of data, new paradigms are needed when choosing machine translation software and embedding it into a business process so as to achieve the operational goals. The talk will focus on the operational requirements and frame where, when and how to use machine translation. We will also outline some gaps and suggest new areas for research, development, and implementation.",
+}
